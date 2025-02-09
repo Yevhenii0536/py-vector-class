@@ -7,8 +7,8 @@ class Vector:
     @classmethod
     def create_vector_by_two_points(
             cls,
-            start_point: tuple[int, int],
-            end_point: tuple[int, int]
+            start_point: tuple[float, float],
+            end_point: tuple[float, float]
     ) -> Vector:
         return cls(
             end_point[0] - start_point[0],
